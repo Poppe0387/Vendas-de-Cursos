@@ -1,3 +1,97 @@
+# **📊 Vendas de Cursos - Análise de Dados** 
+
+![Badge - Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge)
+![Badge - Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge)
+![Badge - Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge)
+![Badge - License](https://img.shields.io/github/license/usuario/repositorio?style=for-the-badge)
+
+<img src="https://www.example.com/path-to-image.jpg" alt="Project Banner" width="100%"/>
+
+---
+
+## **📋 Descrição do Projeto**
+
+Este projeto foi desenvolvido para realizar uma análise completa de vendas de cursos, utilizando dados de vendas, preços e quantidade de vendas para gerar insights estratégicos. As visualizações e análises foram feitas com Python e Power BI.
+
+---
+
+## **🚀 Tecnologias Utilizadas**
+
+- ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+- `pandas`, `matplotlib`, `seaborn` para análise de dados.
+- **Jupyter Notebook** para execução do código.
+- **Power BI** para relatórios visuais e interativos.
+
+---
+
+## **📂 Estrutura do Projeto**
+
+```bash
+├── data                 # Diretório com os dados brutos
+├── notebooks            # Notebooks Jupyter usados no processo
+├── dashboard            # Dashboard interativo no Power BI
+└── README.md            # Documentação do projeto
+
+
+📊 Análises Realizadas
+Verificação de Valores Nulos: Nenhum valor nulo foi encontrado.
+Quantidade de Vendas por Curso: Análise gráfica que identifica os cursos mais vendidos.
+Relação entre Preço Unitário e Vendas: Uma correlação visual entre o preço dos cursos e o número de vendas.
+Receita Total Gerada: Cálculo do faturamento total a partir da multiplicação da quantidade de vendas pelo preço unitário.
+Curso Mais Vendido: Identificação do curso mais vendido com base na quantidade de vendas.
+💡 Insights Obtidos
+Correlação Preço x Vendas: Cursos com preços mais acessíveis tiveram maior número de vendas.
+Receita Total: A receita total gerada foi de R$ {valor}.
+Curso de maior destaque: O curso {curso_mais_vendido} foi o mais vendido.
+📈 Visualizações no Jupyter
+1. Quantidade de Vendas por Curso
+python
+Copiar código
+plt.figure(figsize=(10,6))
+sns.barplot(x='Quantidade de Vendas', y='Nome do Curso', data=vendas)
+plt.title('Quantidade de Vendas por Curso')
+plt.xlabel('Quantidade de Vendas')
+plt.ylabel('Nome do Curso')
+plt.show()
+2. Relação entre Preço Unitário e Quantidade de Vendas
+python
+Copiar código
+plt.figure(figsize=(10,6))
+sns.scatterplot(x='Preço Unitário', y='Quantidade de Vendas', data=vendas)
+plt.title('Relação entre Preço Unitário e Quantidade de Vendas')
+plt.xlabel('Preço Unitário')
+plt.ylabel('Quantidade de Vendas')
+plt.show()
+📊 Dashboard Interativo no Power BI
+No Power BI, você pode acessar o dashboard interativo, que apresenta uma visão clara sobre as vendas, com filtros dinâmicos para regiões, tipos de cursos e períodos de tempo.
+
+📌 Link para o Dashboard: Acessar o Dashboard Power BI
+
+⚙️ Como Executar o Projeto
+Pré-requisitos
+Python 3.9+
+Bibliotecas: pandas, matplotlib, seaborn
+Jupyter Notebook
+1. Clone o repositório
+bash
+Copiar código
+git clone https://github.com/usuario/repositorio.git
+2. Instale as dependências
+bash
+Copiar código
+pip install -r requirements.txt
+3. Execute o Jupyter Notebook
+bash
+Copiar código
+jupyter notebook VendasCursos.ipynb
+📬 Contato
+Caso tenha alguma dúvida ou queira saber mais sobre o projeto:
+
+
+📝 Licença
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para mais detalhes.
+
+
 # Análise de Vendas de Cursos
 
 ## Descrição do Projeto
