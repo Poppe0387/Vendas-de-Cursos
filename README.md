@@ -61,17 +61,13 @@ Uma análise abrangente de dados de vendas de cursos online, desenvolvida em Pyt
 
 ## 💡 Insights Principais
 
-1. **Comportamento de Vendas**
-   - Cursos mais vendidos e suas características
-   - Padrões sazonais identificados
+1. **Cursos mais vendidos:** Os cursos de Introdução à programação em Python e Desenvolvimento web com HTML e CSS são os mais populares, destacando-se pela alta procura entre iniciantes que desejam aprender habilidades fundamentais para a área de tecnologia.
 
-2. **Análise de Preços**
-   - Relação preço x volume de vendas
-   - Faixas de preço mais efetivas
+2. **Receita total gerada:** R$ 32.735,10. Este valor representa o total arrecadado pela venda dos cursos, refletindo o interesse constante por conteúdos de programação e desenvolvimento web.
 
-3. **Oportunidades**
-   - Recomendações baseadas em dados
-   - Áreas potenciais para expansão
+3. **Faixa de preços:** A maioria dos cursos está na faixa de preço entre **R$ 80 e R$ 100**, facilitando o acesso e atraindo uma grande base de alunos.
+
+4. **Padrão de preços:** Não há cursos com preços fora deste padrão, indicando uma consistência nos valores praticados para os conteúdos oferecidos.
 
 ## ⚙️ Como Executar
 
